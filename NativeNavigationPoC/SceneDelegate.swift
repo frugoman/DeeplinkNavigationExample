@@ -46,7 +46,12 @@ class RootViewControllerFactory {
     
     private func makeNavigationController(withViewControllers viewControllers: @autoclosure () -> [UIViewController]) -> UINavigationController {
         let navController = UINavigationController(rootViewController: UIViewController())
-        let navigator = UINavigationControllerScreenNavigator(navigationController: navController)
+        let navigator = AnalyticsScreenNavigatorDecorator(
+            screenNavigator: UINavigationControllerScreenNavigator(
+                navigationController: navController
+            ),
+            analytics: FirebaseAnalytics()
+        )
         register(withNavigator: navigator)
         navController.viewControllers = viewControllers()
         return navController

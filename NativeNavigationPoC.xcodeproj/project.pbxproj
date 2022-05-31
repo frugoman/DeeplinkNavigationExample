@@ -30,6 +30,9 @@
 		5344F1DB28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1DA28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift */; };
 		5344F1E0284639C6005B3BF5 /* RegistryViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1DF284639C6005B3BF5 /* RegistryViewControllerResolver.swift */; };
 		5344F1E3284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1E2284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift */; };
+		5344F1E6284687DB005B3BF5 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1E5284687DB005B3BF5 /* Analytics.swift */; };
+		5344F1E928468809005B3BF5 /* FirebaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1E828468809005B3BF5 /* FirebaseAnalytics.swift */; };
+		5344F1EB28468A50005B3BF5 /* AnalyticsScreenNavigatorDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1EA28468A50005B3BF5 /* AnalyticsScreenNavigatorDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		5344F1DA28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerScreenNavigator.swift; sourceTree = "<group>"; };
 		5344F1DF284639C6005B3BF5 /* RegistryViewControllerResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistryViewControllerResolver.swift; sourceTree = "<group>"; };
 		5344F1E2284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryViewControllerRegistry.swift; sourceTree = "<group>"; };
+		5344F1E5284687DB005B3BF5 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		5344F1E828468809005B3BF5 /* FirebaseAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalytics.swift; sourceTree = "<group>"; };
+		5344F1EA28468A50005B3BF5 /* AnalyticsScreenNavigatorDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsScreenNavigatorDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 			children = (
 				5344F1D428463928005B3BF5 /* Flights */,
 				5344F1D72846394D005B3BF5 /* CoreUI */,
+				5344F1E728468800005B3BF5 /* Analytics */,
 				5344F1D328463915005B3BF5 /* Profile */,
 				5344F1DC2846399F005B3BF5 /* Navigation */,
 				5344F185284630FD005B3BF5 /* AppDelegate.swift */,
@@ -192,6 +199,7 @@
 		5344F1DD284639A6005B3BF5 /* Navigator */ = {
 			isa = PBXGroup;
 			children = (
+				5344F1EA28468A50005B3BF5 /* AnalyticsScreenNavigatorDecorator.swift */,
 				5344F1B928463198005B3BF5 /* ScreenNavigator.swift */,
 				5344F1DA28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift */,
 			);
@@ -223,6 +231,15 @@
 				5344F1D1284638D1005B3BF5 /* ViewControllerRegistratorComposer.swift */,
 			);
 			path = Registrator;
+			sourceTree = "<group>";
+		};
+		5344F1E728468800005B3BF5 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1E828468809005B3BF5 /* FirebaseAnalytics.swift */,
+				5344F1E5284687DB005B3BF5 /* Analytics.swift */,
+			);
+			path = Analytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +350,8 @@
 				5344F186284630FD005B3BF5 /* AppDelegate.swift in Sources */,
 				5344F1BC28463198005B3BF5 /* ViewControllerResolver.swift in Sources */,
 				5344F1C8284633EE005B3BF5 /* ProfileViewController.swift in Sources */,
+				5344F1EB28468A50005B3BF5 /* AnalyticsScreenNavigatorDecorator.swift in Sources */,
+				5344F1E928468809005B3BF5 /* FirebaseAnalytics.swift in Sources */,
 				5344F188284630FD005B3BF5 /* SceneDelegate.swift in Sources */,
 				5344F1BA28463198005B3BF5 /* FlightDetailsViewController.swift in Sources */,
 				5344F1BB28463198005B3BF5 /* ViewControllerRegistry.swift in Sources */,
@@ -341,6 +360,7 @@
 				5344F1E3284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift in Sources */,
 				5344F1D2284638D1005B3BF5 /* ViewControllerRegistratorComposer.swift in Sources */,
 				5344F1D0284638C2005B3BF5 /* ViewControllerRegistrator.swift in Sources */,
+				5344F1E6284687DB005B3BF5 /* Analytics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
