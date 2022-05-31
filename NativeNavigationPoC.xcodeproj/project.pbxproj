@@ -9,24 +9,31 @@
 /* Begin PBXBuildFile section */
 		5344F186284630FD005B3BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F185284630FD005B3BF5 /* AppDelegate.swift */; };
 		5344F188284630FD005B3BF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F187284630FD005B3BF5 /* SceneDelegate.swift */; };
-		5344F18A284630FD005B3BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F189284630FD005B3BF5 /* ViewController.swift */; };
-		5344F18D284630FD005B3BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5344F18B284630FD005B3BF5 /* Main.storyboard */; };
 		5344F18F284630FE005B3BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5344F18E284630FE005B3BF5 /* Assets.xcassets */; };
 		5344F192284630FE005B3BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5344F190284630FE005B3BF5 /* LaunchScreen.storyboard */; };
-		5344F19D284630FE005B3BF5 /* NativeNavigationPoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F19C284630FE005B3BF5 /* NativeNavigationPoCTests.swift */; };
-		5344F1A7284630FE005B3BF5 /* NativeNavigationPoCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1A6284630FE005B3BF5 /* NativeNavigationPoCUITests.swift */; };
-		5344F1A9284630FE005B3BF5 /* NativeNavigationPoCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1A8284630FE005B3BF5 /* NativeNavigationPoCUITestsLaunchTests.swift */; };
+		5344F19D284630FE005B3BF5 /* FlightViewControllerRegistratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F19C284630FE005B3BF5 /* FlightViewControllerRegistratorTests.swift */; };
+		5344F1BA28463198005B3BF5 /* FlightDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1B528463198005B3BF5 /* FlightDetailsViewController.swift */; };
+		5344F1BB28463198005B3BF5 /* ViewControllerRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1B628463198005B3BF5 /* ViewControllerRegistry.swift */; };
+		5344F1BC28463198005B3BF5 /* ViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1B728463198005B3BF5 /* ViewControllerResolver.swift */; };
+		5344F1BD28463198005B3BF5 /* FlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1B828463198005B3BF5 /* FlightsViewController.swift */; };
+		5344F1BE28463198005B3BF5 /* ScreenNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1B928463198005B3BF5 /* ScreenNavigator.swift */; };
+		5344F1C028463228005B3BF5 /* FlightsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1BF28463228005B3BF5 /* FlightsViewControllerTests.swift */; };
+		5344F1C22846330B005B3BF5 /* InMemoryViewControllerRegistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1C12846330B005B3BF5 /* InMemoryViewControllerRegistryTests.swift */; };
+		5344F1C42846333B005B3BF5 /* RegistryViewControllerResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1C32846333B005B3BF5 /* RegistryViewControllerResolverTests.swift */; };
+		5344F1C62846339E005B3BF5 /* ViewControllerRegistratorComposerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1C52846339E005B3BF5 /* ViewControllerRegistratorComposerTest.swift */; };
+		5344F1C8284633EE005B3BF5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1C7284633EE005B3BF5 /* ProfileViewController.swift */; };
+		5344F1CA284633FF005B3BF5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1C9284633FF005B3BF5 /* PageViewController.swift */; };
+		5344F1CC28463691005B3BF5 /* FlightViewControllerRegistrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1CB28463691005B3BF5 /* FlightViewControllerRegistrator.swift */; };
+		5344F1CE2846370E005B3BF5 /* ProfileViewControllerRegistrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1CD2846370E005B3BF5 /* ProfileViewControllerRegistrator.swift */; };
+		5344F1D0284638C2005B3BF5 /* ViewControllerRegistrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1CF284638C2005B3BF5 /* ViewControllerRegistrator.swift */; };
+		5344F1D2284638D1005B3BF5 /* ViewControllerRegistratorComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1D1284638D1005B3BF5 /* ViewControllerRegistratorComposer.swift */; };
+		5344F1DB28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1DA28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift */; };
+		5344F1E0284639C6005B3BF5 /* RegistryViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1DF284639C6005B3BF5 /* RegistryViewControllerResolver.swift */; };
+		5344F1E3284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F1E2284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		5344F199284630FE005B3BF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5344F17A284630FD005B3BF5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5344F181284630FD005B3BF5;
-			remoteInfo = NativeNavigationPoC;
-		};
-		5344F1A3284630FE005B3BF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5344F17A284630FD005B3BF5 /* Project object */;
 			proxyType = 1;
@@ -39,16 +46,29 @@
 		5344F182284630FD005B3BF5 /* NativeNavigationPoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeNavigationPoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5344F185284630FD005B3BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5344F187284630FD005B3BF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5344F189284630FD005B3BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5344F18C284630FD005B3BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5344F18E284630FE005B3BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5344F191284630FE005B3BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5344F193284630FE005B3BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5344F198284630FE005B3BF5 /* NativeNavigationPoCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeNavigationPoCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5344F19C284630FE005B3BF5 /* NativeNavigationPoCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeNavigationPoCTests.swift; sourceTree = "<group>"; };
-		5344F1A2284630FE005B3BF5 /* NativeNavigationPoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeNavigationPoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5344F1A6284630FE005B3BF5 /* NativeNavigationPoCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeNavigationPoCUITests.swift; sourceTree = "<group>"; };
-		5344F1A8284630FE005B3BF5 /* NativeNavigationPoCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeNavigationPoCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5344F19C284630FE005B3BF5 /* FlightViewControllerRegistratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewControllerRegistratorTests.swift; sourceTree = "<group>"; };
+		5344F1B528463198005B3BF5 /* FlightDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewController.swift; sourceTree = "<group>"; };
+		5344F1B628463198005B3BF5 /* ViewControllerRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistry.swift; sourceTree = "<group>"; };
+		5344F1B728463198005B3BF5 /* ViewControllerResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerResolver.swift; sourceTree = "<group>"; };
+		5344F1B828463198005B3BF5 /* FlightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsViewController.swift; sourceTree = "<group>"; };
+		5344F1B928463198005B3BF5 /* ScreenNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenNavigator.swift; sourceTree = "<group>"; };
+		5344F1BF28463228005B3BF5 /* FlightsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewControllerTests.swift; sourceTree = "<group>"; };
+		5344F1C12846330B005B3BF5 /* InMemoryViewControllerRegistryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryViewControllerRegistryTests.swift; sourceTree = "<group>"; };
+		5344F1C32846333B005B3BF5 /* RegistryViewControllerResolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistryViewControllerResolverTests.swift; sourceTree = "<group>"; };
+		5344F1C52846339E005B3BF5 /* ViewControllerRegistratorComposerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistratorComposerTest.swift; sourceTree = "<group>"; };
+		5344F1C7284633EE005B3BF5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5344F1C9284633FF005B3BF5 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		5344F1CB28463691005B3BF5 /* FlightViewControllerRegistrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewControllerRegistrator.swift; sourceTree = "<group>"; };
+		5344F1CD2846370E005B3BF5 /* ProfileViewControllerRegistrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerRegistrator.swift; sourceTree = "<group>"; };
+		5344F1CF284638C2005B3BF5 /* ViewControllerRegistrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistrator.swift; sourceTree = "<group>"; };
+		5344F1D1284638D1005B3BF5 /* ViewControllerRegistratorComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistratorComposer.swift; sourceTree = "<group>"; };
+		5344F1DA28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerScreenNavigator.swift; sourceTree = "<group>"; };
+		5344F1DF284639C6005B3BF5 /* RegistryViewControllerResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistryViewControllerResolver.swift; sourceTree = "<group>"; };
+		5344F1E2284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryViewControllerRegistry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5344F19F284630FE005B3BF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +94,6 @@
 			children = (
 				5344F184284630FD005B3BF5 /* NativeNavigationPoC */,
 				5344F19B284630FE005B3BF5 /* NativeNavigationPoCTests */,
-				5344F1A5284630FE005B3BF5 /* NativeNavigationPoCUITests */,
 				5344F183284630FD005B3BF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +103,6 @@
 			children = (
 				5344F182284630FD005B3BF5 /* NativeNavigationPoC.app */,
 				5344F198284630FE005B3BF5 /* NativeNavigationPoCTests.xctest */,
-				5344F1A2284630FE005B3BF5 /* NativeNavigationPoCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +110,12 @@
 		5344F184284630FD005B3BF5 /* NativeNavigationPoC */ = {
 			isa = PBXGroup;
 			children = (
+				5344F1D428463928005B3BF5 /* Flights */,
+				5344F1D72846394D005B3BF5 /* CoreUI */,
+				5344F1D328463915005B3BF5 /* Profile */,
+				5344F1DC2846399F005B3BF5 /* Navigation */,
 				5344F185284630FD005B3BF5 /* AppDelegate.swift */,
 				5344F187284630FD005B3BF5 /* SceneDelegate.swift */,
-				5344F189284630FD005B3BF5 /* ViewController.swift */,
-				5344F18B284630FD005B3BF5 /* Main.storyboard */,
 				5344F18E284630FE005B3BF5 /* Assets.xcassets */,
 				5344F190284630FE005B3BF5 /* LaunchScreen.storyboard */,
 				5344F193284630FE005B3BF5 /* Info.plist */,
@@ -113,18 +126,103 @@
 		5344F19B284630FE005B3BF5 /* NativeNavigationPoCTests */ = {
 			isa = PBXGroup;
 			children = (
-				5344F19C284630FE005B3BF5 /* NativeNavigationPoCTests.swift */,
+				5344F1BF28463228005B3BF5 /* FlightsViewControllerTests.swift */,
+				5344F1C12846330B005B3BF5 /* InMemoryViewControllerRegistryTests.swift */,
+				5344F1C32846333B005B3BF5 /* RegistryViewControllerResolverTests.swift */,
+				5344F19C284630FE005B3BF5 /* FlightViewControllerRegistratorTests.swift */,
+				5344F1C52846339E005B3BF5 /* ViewControllerRegistratorComposerTest.swift */,
 			);
 			path = NativeNavigationPoCTests;
 			sourceTree = "<group>";
 		};
-		5344F1A5284630FE005B3BF5 /* NativeNavigationPoCUITests */ = {
+		5344F1D328463915005B3BF5 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				5344F1A6284630FE005B3BF5 /* NativeNavigationPoCUITests.swift */,
-				5344F1A8284630FE005B3BF5 /* NativeNavigationPoCUITestsLaunchTests.swift */,
+				5344F1D62846393D005B3BF5 /* Screens */,
+				5344F1CD2846370E005B3BF5 /* ProfileViewControllerRegistrator.swift */,
 			);
-			path = NativeNavigationPoCUITests;
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5344F1D428463928005B3BF5 /* Flights */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1D528463936005B3BF5 /* Screens */,
+				5344F1CB28463691005B3BF5 /* FlightViewControllerRegistrator.swift */,
+			);
+			path = Flights;
+			sourceTree = "<group>";
+		};
+		5344F1D528463936005B3BF5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1B528463198005B3BF5 /* FlightDetailsViewController.swift */,
+				5344F1B828463198005B3BF5 /* FlightsViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5344F1D62846393D005B3BF5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1C7284633EE005B3BF5 /* ProfileViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5344F1D72846394D005B3BF5 /* CoreUI */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1C9284633FF005B3BF5 /* PageViewController.swift */,
+			);
+			path = CoreUI;
+			sourceTree = "<group>";
+		};
+		5344F1DC2846399F005B3BF5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1DD284639A6005B3BF5 /* Navigator */,
+				5344F1E1284639DB005B3BF5 /* Registry */,
+				5344F1DE284639C2005B3BF5 /* Resolver */,
+				5344F1E4284639FF005B3BF5 /* Registrator */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5344F1DD284639A6005B3BF5 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1B928463198005B3BF5 /* ScreenNavigator.swift */,
+				5344F1DA28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		5344F1DE284639C2005B3BF5 /* Resolver */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1DF284639C6005B3BF5 /* RegistryViewControllerResolver.swift */,
+				5344F1B728463198005B3BF5 /* ViewControllerResolver.swift */,
+			);
+			path = Resolver;
+			sourceTree = "<group>";
+		};
+		5344F1E1284639DB005B3BF5 /* Registry */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1E2284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift */,
+				5344F1B628463198005B3BF5 /* ViewControllerRegistry.swift */,
+			);
+			path = Registry;
+			sourceTree = "<group>";
+		};
+		5344F1E4284639FF005B3BF5 /* Registrator */ = {
+			isa = PBXGroup;
+			children = (
+				5344F1CF284638C2005B3BF5 /* ViewControllerRegistrator.swift */,
+				5344F1D1284638D1005B3BF5 /* ViewControllerRegistratorComposer.swift */,
+			);
+			path = Registrator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +263,6 @@
 			productReference = 5344F198284630FE005B3BF5 /* NativeNavigationPoCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5344F1A1284630FE005B3BF5 /* NativeNavigationPoCUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5344F1B2284630FE005B3BF5 /* Build configuration list for PBXNativeTarget "NativeNavigationPoCUITests" */;
-			buildPhases = (
-				5344F19E284630FE005B3BF5 /* Sources */,
-				5344F19F284630FE005B3BF5 /* Frameworks */,
-				5344F1A0284630FE005B3BF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5344F1A4284630FE005B3BF5 /* PBXTargetDependency */,
-			);
-			name = NativeNavigationPoCUITests;
-			productName = NativeNavigationPoCUITests;
-			productReference = 5344F1A2284630FE005B3BF5 /* NativeNavigationPoCUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +277,6 @@
 						CreatedOnToolsVersion = 13.4;
 					};
 					5344F197284630FE005B3BF5 = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = 5344F181284630FD005B3BF5;
-					};
-					5344F1A1284630FE005B3BF5 = {
 						CreatedOnToolsVersion = 13.4;
 						TestTargetID = 5344F181284630FD005B3BF5;
 					};
@@ -221,7 +297,6 @@
 			targets = (
 				5344F181284630FD005B3BF5 /* NativeNavigationPoC */,
 				5344F197284630FE005B3BF5 /* NativeNavigationPoCTests */,
-				5344F1A1284630FE005B3BF5 /* NativeNavigationPoCUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +308,10 @@
 			files = (
 				5344F192284630FE005B3BF5 /* LaunchScreen.storyboard in Resources */,
 				5344F18F284630FE005B3BF5 /* Assets.xcassets in Resources */,
-				5344F18D284630FD005B3BF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5344F196284630FE005B3BF5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5344F1A0284630FE005B3BF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +325,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5344F18A284630FD005B3BF5 /* ViewController.swift in Sources */,
+				5344F1CE2846370E005B3BF5 /* ProfileViewControllerRegistrator.swift in Sources */,
+				5344F1DB28463978005B3BF5 /* UINavigationControllerScreenNavigator.swift in Sources */,
+				5344F1CA284633FF005B3BF5 /* PageViewController.swift in Sources */,
+				5344F1BD28463198005B3BF5 /* FlightsViewController.swift in Sources */,
+				5344F1BE28463198005B3BF5 /* ScreenNavigator.swift in Sources */,
 				5344F186284630FD005B3BF5 /* AppDelegate.swift in Sources */,
+				5344F1BC28463198005B3BF5 /* ViewControllerResolver.swift in Sources */,
+				5344F1C8284633EE005B3BF5 /* ProfileViewController.swift in Sources */,
 				5344F188284630FD005B3BF5 /* SceneDelegate.swift in Sources */,
+				5344F1BA28463198005B3BF5 /* FlightDetailsViewController.swift in Sources */,
+				5344F1BB28463198005B3BF5 /* ViewControllerRegistry.swift in Sources */,
+				5344F1E0284639C6005B3BF5 /* RegistryViewControllerResolver.swift in Sources */,
+				5344F1CC28463691005B3BF5 /* FlightViewControllerRegistrator.swift in Sources */,
+				5344F1E3284639E2005B3BF5 /* InMemoryViewControllerRegistry.swift in Sources */,
+				5344F1D2284638D1005B3BF5 /* ViewControllerRegistratorComposer.swift in Sources */,
+				5344F1D0284638C2005B3BF5 /* ViewControllerRegistrator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5344F19D284630FE005B3BF5 /* NativeNavigationPoCTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5344F19E284630FE005B3BF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5344F1A9284630FE005B3BF5 /* NativeNavigationPoCUITestsLaunchTests.swift in Sources */,
-				5344F1A7284630FE005B3BF5 /* NativeNavigationPoCUITests.swift in Sources */,
+				5344F1C22846330B005B3BF5 /* InMemoryViewControllerRegistryTests.swift in Sources */,
+				5344F19D284630FE005B3BF5 /* FlightViewControllerRegistratorTests.swift in Sources */,
+				5344F1C028463228005B3BF5 /* FlightsViewControllerTests.swift in Sources */,
+				5344F1C42846333B005B3BF5 /* RegistryViewControllerResolverTests.swift in Sources */,
+				5344F1C62846339E005B3BF5 /* ViewControllerRegistratorComposerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +364,9 @@
 			target = 5344F181284630FD005B3BF5 /* NativeNavigationPoC */;
 			targetProxy = 5344F199284630FE005B3BF5 /* PBXContainerItemProxy */;
 		};
-		5344F1A4284630FE005B3BF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5344F181284630FD005B3BF5 /* NativeNavigationPoC */;
-			targetProxy = 5344F1A3284630FE005B3BF5 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5344F18B284630FD005B3BF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5344F18C284630FD005B3BF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5344F190284630FE005B3BF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +504,9 @@
 				INFOPLIST_FILE = NativeNavigationPoC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +532,9 @@
 				INFOPLIST_FILE = NativeNavigationPoC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,42 +588,6 @@
 			};
 			name = Release;
 		};
-		5344F1B3284630FE005B3BF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VQDNM3C2SW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frusoft.NativeNavigationPoCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NativeNavigationPoC;
-			};
-			name = Debug;
-		};
-		5344F1B4284630FE005B3BF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VQDNM3C2SW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frusoft.NativeNavigationPoCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NativeNavigationPoC;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +614,6 @@
 			buildConfigurations = (
 				5344F1B0284630FE005B3BF5 /* Debug */,
 				5344F1B1284630FE005B3BF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5344F1B2284630FE005B3BF5 /* Build configuration list for PBXNativeTarget "NativeNavigationPoCUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5344F1B3284630FE005B3BF5 /* Debug */,
-				5344F1B4284630FE005B3BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
